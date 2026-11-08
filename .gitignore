@@ -1,0 +1,22 @@
+# Keep this submission limited to source review and aggregate results
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.joblib
+*.pt
+*.mp4
+*.avi
+*.mov
+*.zip
+*.log
+*.sqlite
+*.db
+# Do not commit full data or SUMO generated outputs
+data/
+network/
+runs/
+replay/
+models/

@@ -1,0 +1,7 @@
+Assignment submission — selected source code repository
+
+Repository URL: https://github.com/sulimaniscoding/UQU-Traffic-AI-Assignment
+
+The repository contains selected, unchanged implementation source files for synthetic timetable generation, SUMO traffic simulation, Random Forest/XGBoost forecasting, and rule-based gate routing, plus aggregate experimental results. It does not contain the full research workspace or all assets required to rerun the original experiments.
+
+Access: private repository; the instructor must accept a GitHub collaborator invitation.

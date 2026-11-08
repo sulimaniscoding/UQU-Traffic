@@ -1,0 +1,6 @@
+SHA-256 checksums for source code copied unchanged from the original packages:
+
+2ff8d3f47d3b45bb91621b55989899873c691e31b7822384c725f8174c6ee5cd  src/experiment.py  [original: UQU_GeoTraffic_v2/experiment.py]
+6751decf43bab2ef4005169d06d9bc8ef2abfdf04bd7d8c1899d49460e4283d9  src/network_setup.py  [original: UQU_GeoTraffic_v2/network_setup.py]
+471ab360f502e21402f2172321fade2ae4054f530bd0f08fa69e79e8b28d077b  src/report_and_validate.py  [original: UQU_GeoTraffic_v2/report_and_validate.py]
+0d04b644378b9ee7195aab49486fd4756e3d4fe3b798203ec185d8f601a828c5  src/generate_dataset.py  [original: generate_dataset.py]

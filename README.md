@@ -6,18 +6,18 @@
 
 This repository is a **limited code-review extract** prepared for the course instructor. It shows the implemented data generation, geographic road routing, SUMO traffic simulation, machine-learning forecasting, and gate routing logic. It intentionally excludes the complete research workspace, raw student timetable datasets, trained model binaries, video recordings, SUMO road-network assets, and full run logs.
 
-> **Important:** The code in `src/` is copied **unchanged** from the original project packages. Because the large input datasets, geographic network and model artifacts are intentionally excluded, this repository is **not a standalone runnable version** of the full experiment. It is for source inspection and evaluation. The complete project is maintained privately by the student.
+> **Important:** The code in repository root is copied **unchanged** from the original project packages. Because the large input datasets, geographic network and model artifacts are intentionally excluded, this repository is **not a standalone runnable version** of the full experiment. It is for source inspection and evaluation. The complete project is maintained privately by the student.
 
 ## What to inspect
 
 | Source file | Relevant implementation |
 |---|---|
-| [`src/generate_dataset.py`](src/generate_dataset.py) | Generation of fictional academic records and student schedules |
-| [`src/network_setup.py`](src/network_setup.py) | OSM/SUMO network processing and shortest-path routing (Dijkstra-style) |
-| [`src/experiment.py`](src/experiment.py) | Synthetic travel demand, SUMO simulation, Random Forest/XGBoost training, and gate policy comparison |
-| [`src/report_and_validate.py`](src/report_and_validate.py) | Data integrity checks, evaluation, and experiment reporting |
+| [`generate_dataset.py`](generate_dataset.py) | Generation of fictional academic records and student schedules |
+| [`network_setup.py`](network_setup.py) | OSM/SUMO network processing and shortest-path routing (Dijkstra-style) |
+| [`experiment.py`](experiment.py) | Synthetic travel demand, SUMO simulation, Random Forest/XGBoost training, and gate policy comparison |
+| [`report_and_validate.py`](report_and_validate.py) | Data integrity checks, evaluation, and experiment reporting |
 
-### Key functions in `src/experiment.py`
+### Key functions in `experiment.py`
 
 - `prepare()` — normalize and derive academic demand inputs.
 - `demand()` — turn synthetic student-day schedules into simulated vehicle trips.
@@ -45,4 +45,4 @@ On the reported test split, **Persistence had the lowest MAE (1.541)**, while **
 
 See [`docs/CODE_WALKTHROUGH_AR.md`](docs/CODE_WALKTHROUGH_AR.md) for a short Arabic walkthrough and [`ORIGINAL_SOURCE_HASHES.txt`](ORIGINAL_SOURCE_HASHES.txt) for the source-file hashes.
 
-**Access:** Keep this repository **Private** and invite the instructor as a collaborator if they need to inspect it. GitHub collaborator access is repository-wide; this submission is a separate repository so the original full project remains inaccessible.
+**Access:** This separate repository is intended to be shared with the course instructor. If made **Public**, anyone with the link can view these selected files; the original research repository remains private.
